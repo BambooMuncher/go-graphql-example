@@ -4,7 +4,7 @@ This service acts as a GraphQL interface for querying the Hearthstone card relat
 
 ## Running the Service
 
-Ensure you have Go 2.x installed. Simply execute the command `go run app/*.go`. 
+Ensure you have Go 1.20 installed. Simply execute the command `go run app/*.go`. 
 
 ## Using the Service
 
