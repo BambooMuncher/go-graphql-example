@@ -24,11 +24,6 @@ var minionTypesById map[int]MinionType = nil
 var spellSchoolsById map[int]SpellSchool = nil
 
 
-// TODO : refactor using generics
-// TODO : add filtering options
-// TODO : add more card response fields
-// TODO : improve error handling
-// TODO : write tests
 var rootQuery = graphql.NewObject(graphql.ObjectConfig{
     Name: "Query",
     Fields: graphql.Fields{
